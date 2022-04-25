@@ -1,56 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@100;200;400;700&display=swap');
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: 'Stick No Bills', sans-serif;
-    background-color: #97A6A4;
+    background-color: darkgreen;
+    font-family: 'Stick+NoBills',sans-serif;
+   
+    
+}
+   
+   
+
+.container {
+    padding: 20px 70px;
+    color: #fff;
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #f8f8ff;
+.current-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-#weatherContent {
-    display: none;
+.date-container{
+    font-weight: 100;
 }
 
-.navbar {
-    height: 150px;
+.date-container .time{
+    font-size: 70px;
 }
 
-#cityDetail,
-#uvIndexColor,
-li {
-    color: #4D4F53!important;
+.date-container #am-pm{
+    font-size: 30px;
+    margin-left: 20px;
 }
 
-#searchResults,
-#cityDetail,
-.card {
-    background-color: #5A6C73;
+.date-container .date{
+    font-size: 30px;
 }
 
-#searchResults {
-    height: 100vh;
+.place-container{
+    text-align: end;
 }
 
-#fiveDay .card {
-    border: 1px solid white;
+.place-container .time-zone{
+    font-size: 30px;
+    font-weight: 100;
 }
 
-#searchHistory li {
-    background-color: #97A6A4;
-    color: #f8f8ff;
+.place-container .country{
+    font-size: 12px;
+    font-weight: 700;
 }
 
-p {
-    color: #D9B779;
+.current-info .others{
+    display: flex;
+    flex-direction: column;
+    background: rbga 24,24,27,0.6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Stick No Bills', sans-serif;
+.current-info .others .weather-item{
+    display: flex;
+    justify-content: space-between;
 }
 
-h2, h3, h4, h5 {
-    color: #f8f8ff;
+.future-forecat{
+    background:rbga 24,24,27,0.8;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    color: #eee;
+    width:100%;
+    align-items: center;
+    justify-content: center;
 }
+
+.future-forecast .today{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.future-forecast .today .day{
+    padding: 5px 15px;
+    background: #3c3c3c;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.future-forecast .today .temp{
+    font-size: 20px
+    padding-top: 15px;
+}
+
+.future-forecat .weather-forecast{
+    display: flex;
+}
+
+.weather-forecast .weather-forecast-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.weather-forecast .weather-forecast-item .day{
+    padding: 5px 15px;
+    background: #3C3C44;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.weather-forecast .weather-forecast-item .temp{
+    font-weight: 100;
+}
+
