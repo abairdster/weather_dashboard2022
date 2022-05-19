@@ -39,6 +39,3 @@ jQuery allows for rapid development of your web application and simplifies what 
 ## *Authors*
 
 - [abairdster](https://github.com/abairdster)
-
-## Conclusion:
-I need to keep improving my javascript scope knowledge as well as looking into JS best practices for improving my code. I had a lot of help, with my tutor. I have learned an extensive amount. I definitely need to learn more. I have used a few different referrences to try and understand/ communicate my strings. Wish I was more proficient.
