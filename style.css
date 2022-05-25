@@ -1,3 +1,45 @@
 body {
        background-color: lightgrey
 }
+
+.title{
+       color: lightblue
+       margin: 0
+       width:100%;
+}
+
+.searchCityButton{
+       background-color: lightgreen;
+       color:azure;
+}
+
+.cityButton{
+       background-color: lightblue;
+       color:black;
+}
+
+.uvButton{
+       background-color: lightgreen;
+       color:black;
+}
+
+.green {
+       background-color: green;
+       color: white;
+   }
+   .yellow {
+       background-color: yellow;
+       color: black;
+   }
+   .orange {
+       background-color: orange;
+       color: white;
+   }
+   .red {
+       background-color: red;
+       color: white;
+   }
+   .purple {
+       background-color: purple;
+       color: white;
+   }
