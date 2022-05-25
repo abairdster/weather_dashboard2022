@@ -2,22 +2,6 @@ body {
        background-color: lightgrey
 }
 
-.title{
-       color: lightblue
-       margin: 0
-       width:100%;
-}
-
-.searchCityButton{
-       background-color: lightgreen;
-       color:azure;
-}
-
-.cityButton{
-       background-color: lightblue;
-       color:black;
-}
-
 .uvButton{
        background-color: lightgreen;
        color:black;
