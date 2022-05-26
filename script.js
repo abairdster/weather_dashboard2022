@@ -35,23 +35,23 @@ var searchBTN = document.getElementById('search')
 var fiveDay = document.getElementById('5dayWeatherContainer')
 
     
-     var now = document.getElementById('today');
-     now.textContent = moment().format('MMM Do YY');
-     var tomorrow = document.getElementById('date1')
-     tomorrow.textContent = moment().add(1, 'd').format('MMM Do YY')
-     var date2 = document.getElementById('date2')
-     date2.textContent = moment().add(2, 'd').format('MMM Do YY')
-     var date3 = document.getElementById('date3')
-     date3.textContent = moment().add(3, 'd').format('MMM Do YY')
-     var date4 = document.getElementById('date4')
-     date4.textContent = moment().add(1, 'd').format('MMM Do YY')
-     var date5 = document.getElementById('date5')
-     date5.textContent = moment().add(1, 'd').format('MMM Do YY')
+    //  var now = document.getElementById('today');
+    //  now.textContent = moment().format('MMM Do YY');
+    //  var tomorrow = document.getElementById('date1')
+    //  tomorrow.textContent = moment().add(1, 'd').format('MMM Do YY')
+    //  var date2 = document.getElementById('date2')
+    //  date2.textContent = moment().add(2, 'd').format('MMM Do YY')
+    //  var date3 = document.getElementById('date3')
+    //  date3.textContent = moment().add(3, 'd').format('MMM Do YY')
+    //  var date4 = document.getElementById('date4')
+    //  date4.textContent = moment().add(1, 'd').format('MMM Do YY')
+    //  var date5 = document.getElementById('date5')
+    //  date5.textContent = moment().add(1, 'd').format('MMM Do YY')
 
         
 var searchArea = function (event) {
     event.preventDefault();
-        var search = searchFormEl.value.trim();
+        var search = searchFormElement.value.trim();
         if (search) {
             getCitySearch(search);
             searchFormElement.value = '';
